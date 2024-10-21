@@ -1,13 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.mycompany.figurageometrica;
 
-/**
- *
- * @author svos8
- */
+package com.mycompany.figurageometrica;
+public class Triángulo extends FiguraGeometrica {
+    
+
 public class Triángulo {
     
+}
 }
