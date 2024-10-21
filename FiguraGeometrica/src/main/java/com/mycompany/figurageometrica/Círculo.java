@@ -1,13 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.mycompany.figurageometrica;
 
-/**
- *
- * @author svos8
- */
-public class Círculo {
-    
+public class Círculo extends FiguraGeometrica{    
+private double radio;
+
+public Círculo(String nombre,String color , double radio) {
+  super (nombre, color);
+  this.radio = radio;
+}
+public double getArea (){
+  return Math.PI* radio * radio;
+}
+public double getPerimetro (){
+    return 2*Math.PI * radio ;
+}
 }
