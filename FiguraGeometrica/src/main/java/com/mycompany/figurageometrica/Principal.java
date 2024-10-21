@@ -45,7 +45,7 @@ public class Principal {
                 break;
         }
     
-        if (figura = nombre ) {
+        if (figura != nombre ) {
             System.out.println("Área de la figura: " + figura.obtenerArea());
             System.out.println("Perímetro de la figura: " + figura.obtenerPerimetro());
         }
